@@ -1,33 +1,14 @@
 import './App.css';
+import Header from "./Header";
+import Tecnologies from "./Tecnologies";
 
 function App() {
-  return (
-      <div>
-          <Header />
-          <Tecnologies />
-      </div>
-  );
-}
-
-const Header = () => {
-  return (
-      <div>
-          <a href="#s">Home</a>
-          <a href="#s">News</a>
-          <a href="#s">Blog</a>
-      </div>
-  );
-}
-
-const Tecnologies = () => {
     return (
         <div>
-            <ul>
-                <li>css</li>
-                <li>JS</li>
-                <li>RACT</li>
-            </ul>
+            <Header/>
+            <Tecnologies/>
         </div>
     );
 }
+
 export default App;
